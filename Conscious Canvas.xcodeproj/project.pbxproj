@@ -45,6 +45,7 @@
 		89FC60C02A77756B009BD22F /* Conscious CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conscious CanvasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FC60C42A77756B009BD22F /* Conscious_CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conscious_CanvasUITests.swift; sourceTree = "<group>"; };
 		89FC60C62A77756B009BD22F /* Conscious_CanvasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conscious_CanvasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89FC60D32A777A0B009BD22F /* Conscious-Canvas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Conscious-Canvas-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		89FC60A72A77756A009BD22F /* Conscious Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				89FC60D32A777A0B009BD22F /* Conscious-Canvas-Info.plist */,
 				89FC60A82A77756A009BD22F /* Conscious_CanvasApp.swift */,
 				89FC60AA2A77756A009BD22F /* ContentView.swift */,
 				89FC60AC2A77756B009BD22F /* Assets.xcassets */,
@@ -417,6 +419,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Conscious Canvas/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conscious-Canvas-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = art;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +457,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Conscious Canvas/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conscious-Canvas-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = art;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -529,6 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "for art";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
@@ -550,6 +557,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "for art";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
