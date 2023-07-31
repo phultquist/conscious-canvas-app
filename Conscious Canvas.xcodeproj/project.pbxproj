@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89FC60A92A77756A009BD22F /* Conscious_CanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC60A82A77756A009BD22F /* Conscious_CanvasApp.swift */; };
+		89FC60AB2A77756A009BD22F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC60AA2A77756A009BD22F /* ContentView.swift */; };
+		89FC60AD2A77756B009BD22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FC60AC2A77756B009BD22F /* Assets.xcassets */; };
+		89FC60B12A77756B009BD22F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FC60B02A77756B009BD22F /* Preview Assets.xcassets */; };
+		89FC60BB2A77756B009BD22F /* Conscious_CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC60BA2A77756B009BD22F /* Conscious_CanvasTests.swift */; };
+		89FC60C52A77756B009BD22F /* Conscious_CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC60C42A77756B009BD22F /* Conscious_CanvasUITests.swift */; };
+		89FC60C72A77756B009BD22F /* Conscious_CanvasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC60C62A77756B009BD22F /* Conscious_CanvasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89FC60B72A77756B009BD22F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89FC609D2A77756A009BD22F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89FC60A42A77756A009BD22F;
+			remoteInfo = "Conscious Canvas";
+		};
+		89FC60C12A77756B009BD22F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89FC609D2A77756A009BD22F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89FC60A42A77756A009BD22F;
+			remoteInfo = "Conscious Canvas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89FC60A52A77756A009BD22F /* Conscious Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conscious Canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FC60A82A77756A009BD22F /* Conscious_CanvasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conscious_CanvasApp.swift; sourceTree = "<group>"; };
+		89FC60AA2A77756A009BD22F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89FC60AC2A77756B009BD22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89FC60AE2A77756B009BD22F /* Conscious_Canvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Conscious_Canvas.entitlements; sourceTree = "<group>"; };
+		89FC60B02A77756B009BD22F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89FC60B62A77756B009BD22F /* Conscious CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conscious CanvasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FC60BA2A77756B009BD22F /* Conscious_CanvasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conscious_CanvasTests.swift; sourceTree = "<group>"; };
+		89FC60C02A77756B009BD22F /* Conscious CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conscious CanvasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FC60C42A77756B009BD22F /* Conscious_CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conscious_CanvasUITests.swift; sourceTree = "<group>"; };
+		89FC60C62A77756B009BD22F /* Conscious_CanvasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conscious_CanvasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89FC60A22A77756A009BD22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FC60B32A77756B009BD22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FC60BD2A77756B009BD22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89FC609C2A77756A009BD22F = {
+			isa = PBXGroup;
+			children = (
+				89FC60A72A77756A009BD22F /* Conscious Canvas */,
+				89FC60B92A77756B009BD22F /* Conscious CanvasTests */,
+				89FC60C32A77756B009BD22F /* Conscious CanvasUITests */,
+				89FC60A62A77756A009BD22F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89FC60A62A77756A009BD22F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89FC60A52A77756A009BD22F /* Conscious Canvas.app */,
+				89FC60B62A77756B009BD22F /* Conscious CanvasTests.xctest */,
+				89FC60C02A77756B009BD22F /* Conscious CanvasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89FC60A72A77756A009BD22F /* Conscious Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				89FC60A82A77756A009BD22F /* Conscious_CanvasApp.swift */,
+				89FC60AA2A77756A009BD22F /* ContentView.swift */,
+				89FC60AC2A77756B009BD22F /* Assets.xcassets */,
+				89FC60AE2A77756B009BD22F /* Conscious_Canvas.entitlements */,
+				89FC60AF2A77756B009BD22F /* Preview Content */,
+			);
+			path = "Conscious Canvas";
+			sourceTree = "<group>";
+		};
+		89FC60AF2A77756B009BD22F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89FC60B02A77756B009BD22F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89FC60B92A77756B009BD22F /* Conscious CanvasTests */ = {
+			isa = PBXGroup;
+			children = (
+				89FC60BA2A77756B009BD22F /* Conscious_CanvasTests.swift */,
+			);
+			path = "Conscious CanvasTests";
+			sourceTree = "<group>";
+		};
+		89FC60C32A77756B009BD22F /* Conscious CanvasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89FC60C42A77756B009BD22F /* Conscious_CanvasUITests.swift */,
+				89FC60C62A77756B009BD22F /* Conscious_CanvasUITestsLaunchTests.swift */,
+			);
+			path = "Conscious CanvasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89FC60A42A77756A009BD22F /* Conscious Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FC60CA2A77756B009BD22F /* Build configuration list for PBXNativeTarget "Conscious Canvas" */;
+			buildPhases = (
+				89FC60A12A77756A009BD22F /* Sources */,
+				89FC60A22A77756A009BD22F /* Frameworks */,
+				89FC60A32A77756A009BD22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conscious Canvas";
+			productName = "Conscious Canvas";
+			productReference = 89FC60A52A77756A009BD22F /* Conscious Canvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89FC60B52A77756B009BD22F /* Conscious CanvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FC60CD2A77756B009BD22F /* Build configuration list for PBXNativeTarget "Conscious CanvasTests" */;
+			buildPhases = (
+				89FC60B22A77756B009BD22F /* Sources */,
+				89FC60B32A77756B009BD22F /* Frameworks */,
+				89FC60B42A77756B009BD22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FC60B82A77756B009BD22F /* PBXTargetDependency */,
+			);
+			name = "Conscious CanvasTests";
+			productName = "Conscious CanvasTests";
+			productReference = 89FC60B62A77756B009BD22F /* Conscious CanvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89FC60BF2A77756B009BD22F /* Conscious CanvasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FC60D02A77756B009BD22F /* Build configuration list for PBXNativeTarget "Conscious CanvasUITests" */;
+			buildPhases = (
+				89FC60BC2A77756B009BD22F /* Sources */,
+				89FC60BD2A77756B009BD22F /* Frameworks */,
+				89FC60BE2A77756B009BD22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FC60C22A77756B009BD22F /* PBXTargetDependency */,
+			);
+			name = "Conscious CanvasUITests";
+			productName = "Conscious CanvasUITests";
+			productReference = 89FC60C02A77756B009BD22F /* Conscious CanvasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89FC609D2A77756A009BD22F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					89FC60A42A77756A009BD22F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					89FC60B52A77756B009BD22F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 89FC60A42A77756A009BD22F;
+					};
+					89FC60BF2A77756B009BD22F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 89FC60A42A77756A009BD22F;
+					};
+				};
+			};
+			buildConfigurationList = 89FC60A02A77756A009BD22F /* Build configuration list for PBXProject "Conscious Canvas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89FC609C2A77756A009BD22F;
+			productRefGroup = 89FC60A62A77756A009BD22F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89FC60A42A77756A009BD22F /* Conscious Canvas */,
+				89FC60B52A77756B009BD22F /* Conscious CanvasTests */,
+				89FC60BF2A77756B009BD22F /* Conscious CanvasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89FC60A32A77756A009BD22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FC60B12A77756B009BD22F /* Preview Assets.xcassets in Resources */,
+				89FC60AD2A77756B009BD22F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FC60B42A77756B009BD22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FC60BE2A77756B009BD22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89FC60A12A77756A009BD22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FC60AB2A77756A009BD22F /* ContentView.swift in Sources */,
+				89FC60A92A77756A009BD22F /* Conscious_CanvasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FC60B22A77756B009BD22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FC60BB2A77756B009BD22F /* Conscious_CanvasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FC60BC2A77756B009BD22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FC60C52A77756B009BD22F /* Conscious_CanvasUITests.swift in Sources */,
+				89FC60C72A77756B009BD22F /* Conscious_CanvasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89FC60B82A77756B009BD22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89FC60A42A77756A009BD22F /* Conscious Canvas */;
+			targetProxy = 89FC60B72A77756B009BD22F /* PBXContainerItemProxy */;
+		};
+		89FC60C22A77756B009BD22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89FC60A42A77756A009BD22F /* Conscious Canvas */;
+			targetProxy = 89FC60C12A77756B009BD22F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89FC60C82A77756B009BD22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89FC60C92A77756B009BD22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		89FC60CB2A77756B009BD22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Conscious Canvas/Conscious_Canvas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Conscious Canvas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conscious-canvas.Conscious-Canvas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89FC60CC2A77756B009BD22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Conscious Canvas/Conscious_Canvas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Conscious Canvas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conscious-canvas.Conscious-Canvas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89FC60CE2A77756B009BD22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conscious-canvas.Conscious-CanvasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conscious Canvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conscious Canvas";
+			};
+			name = Debug;
+		};
+		89FC60CF2A77756B009BD22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conscious-canvas.Conscious-CanvasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conscious Canvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conscious Canvas";
+			};
+			name = Release;
+		};
+		89FC60D12A77756B009BD22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conscious-canvas.Conscious-CanvasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conscious Canvas";
+			};
+			name = Debug;
+		};
+		89FC60D22A77756B009BD22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conscious-canvas.Conscious-CanvasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conscious Canvas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89FC60A02A77756A009BD22F /* Build configuration list for PBXProject "Conscious Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FC60C82A77756B009BD22F /* Debug */,
+				89FC60C92A77756B009BD22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FC60CA2A77756B009BD22F /* Build configuration list for PBXNativeTarget "Conscious Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FC60CB2A77756B009BD22F /* Debug */,
+				89FC60CC2A77756B009BD22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FC60CD2A77756B009BD22F /* Build configuration list for PBXNativeTarget "Conscious CanvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FC60CE2A77756B009BD22F /* Debug */,
+				89FC60CF2A77756B009BD22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FC60D02A77756B009BD22F /* Build configuration list for PBXNativeTarget "Conscious CanvasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FC60D12A77756B009BD22F /* Debug */,
+				89FC60D22A77756B009BD22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89FC609D2A77756A009BD22F /* Project object */;
+}
