@@ -19,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         if (submitted) {
-            WebView(url: URL(string: url), webViewDelgate: WebViewNavigationDelegate())
+            WebView(url: URL(string: url))
                 .edgesIgnoringSafeArea(.all)
                 .onAppear {
                     requestMicrophoneAccess()
@@ -50,11 +50,13 @@ struct ContentView: View {
 
 struct WebView: UIViewRepresentable {
     let url: URL?
-    let webViewDelgate: WebViewNavigationDelegate?
+    let webViewDelgate = WebViewNavigationDelegate()
+    let uiDelegate = WebViewUIDelegate()
 
     func makeUIView(context: Context) -> WKWebView  {
         let webView = WKWebView()
         webView.navigationDelegate = webViewDelgate;
+        webView.uiDelegate = uiDelegate;
         if let url = url {
             webView.load(URLRequest(url: url))
         }
@@ -74,6 +76,19 @@ class WebViewNavigationDelegate: NSObject, WKNavigationDelegate {
     ) {
         let cred = URLCredential(trust: challenge.protectionSpace.serverTrust!)
         completionHandler(.useCredential, cred)
+    }
+}
+
+class WebViewUIDelegate: NSObject, WKUIDelegate {
+    func webView(
+        _ webView: WKWebView,
+        requestMediaCapturePermissionFor origin: WKSecurityOrigin,
+        initiatedByFrame frame: WKFrameInfo,
+        type: WKMediaCaptureType,
+        decisionHandler: @escaping (WKPermissionDecision) -> Void
+    ) {
+        NSLog("asking for mic permission")
+        decisionHandler(.grant)
     }
 }
 
