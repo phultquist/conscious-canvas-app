@@ -13,13 +13,35 @@ func requestMicrophoneAccess() {
 }
 
 struct ContentView: View {
+    @State private var url = "http://localhost:8080";
+    @State private var submitted = false;
+    
     var body: some View {
-            WebView(url: URL(string: "http://localhost:8080"))
+        if (submitted) {
+            WebView(url: URL(string: url))
                 .edgesIgnoringSafeArea(.all)
                 .onAppear {
                     requestMicrophoneAccess()
-                }
+                }.statusBar(hidden: true)
+            
+        } else {
+            VStack(alignment: .center) {
+                Text("Enter URL")
+                TextField("URL", text: $url).frame(width: 200).padding(EdgeInsets(top: 0, leading: 6, bottom: 0, trailing: 6)).cornerRadius(5)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 5)
+                            .stroke(lineWidth: 1)
+                    )
+            Button(
+                action: {
+                    self.submitted.toggle()
+                }, label: {Text("Submit").padding(EdgeInsets(top: 20, leading: 10, bottom: 10, trailing: 10))})
+            }
         }
+        
+    }
+    
+    
 }
 
 struct WebView: UIViewRepresentable {
