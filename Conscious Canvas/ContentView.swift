@@ -13,12 +13,13 @@ func requestMicrophoneAccess() {
 }
 
 struct ContentView: View {
-    @State private var url = "http://localhost:8080";
+    // @State private var url = "https://192.168.0.100:8000";
+    @State private var url = "https://192.168.4.85:8000";
     @State private var submitted = false;
     
     var body: some View {
         if (submitted) {
-            WebView(url: URL(string: url))
+            WebView(url: URL(string: url), webViewDelgate: WebViewNavigationDelegate())
                 .edgesIgnoringSafeArea(.all)
                 .onAppear {
                     requestMicrophoneAccess()
@@ -27,7 +28,10 @@ struct ContentView: View {
         } else {
             VStack(alignment: .center) {
                 Text("Enter URL")
-                TextField("URL", text: $url).frame(width: 200).padding(EdgeInsets(top: 0, leading: 6, bottom: 0, trailing: 6)).cornerRadius(5)
+                TextField("URL", text: $url)
+                    .disableAutocorrection(true)
+                    .textInputAutocapitalization(.never)
+                    .frame(width: 200).padding(EdgeInsets(top: 0, leading: 6, bottom: 0, trailing: 6)).cornerRadius(5)
                     .overlay(
                         RoundedRectangle(cornerRadius: 5)
                             .stroke(lineWidth: 1)
@@ -46,9 +50,11 @@ struct ContentView: View {
 
 struct WebView: UIViewRepresentable {
     let url: URL?
+    let webViewDelgate: WebViewNavigationDelegate?
 
     func makeUIView(context: Context) -> WKWebView  {
         let webView = WKWebView()
+        webView.navigationDelegate = webViewDelgate;
         if let url = url {
             webView.load(URLRequest(url: url))
         }
@@ -57,6 +63,17 @@ struct WebView: UIViewRepresentable {
 
     func updateUIView(_ uiView: WKWebView, context: Context) {
         // Update the view if needed
+    }
+}
+
+class WebViewNavigationDelegate: NSObject, WKNavigationDelegate {
+    func webView(
+        _ webView: WKWebView,
+        didReceive challenge: URLAuthenticationChallenge,
+        completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void
+    ) {
+        let cred = URLCredential(trust: challenge.protectionSpace.serverTrust!)
+        completionHandler(.useCredential, cred)
     }
 }
 
